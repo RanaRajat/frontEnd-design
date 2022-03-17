@@ -1,0 +1,16 @@
+
+
+.header{
+    margin: 0;
+     color: white;  
+     font-size: 3rem;
+}
+.outer{
+    
+    background-image: linear-gradient(to right, #F0CA80 ,#D692D2);
+    margin: 0;
+   
+    filter: brightness(90%);
+   
+
+}

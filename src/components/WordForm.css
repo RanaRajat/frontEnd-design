@@ -1,0 +1,65 @@
+.mainDiv{
+    background-image: linear-gradient(to right, #F0CA80 ,#D692D2);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    filter: brightness(90%);
+}
+.wordDiv{
+    width: 75vw;
+    height: 75vh;
+
+    position: absolute;
+    
+  
+}
+.wordDiv>img{
+    width: 75vw;
+    height: 75vh;
+    border-radius: 16px;
+    filter: blur(2px);
+    filter: brightness(70%);
+}
+.inputDiv{
+    
+ position: absolute;
+    
+  display: flex;
+  flex-direction: column;
+  margin-left:-34rem;
+  margin-top: -5rem;
+  
+}
+.inputDiv>input{
+    width: 25rem;
+    height: 4rem;
+    border: none;
+    margin:2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0,0.2);
+    
+    border-radius: 16px;
+}
+.rightDiv{
+    
+
+    position: relative;
+    margin-left: 29rem;
+    margin-top: -5rem;
+}
+.rightDiv>button{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 16px;
+    color: white;
+    background-color: #2e71e6;
+    border: 2px solid rgb(0, 0, 0,0.2);
+    z-index: 45;
+    font-size: large;
+
+
+}

@@ -1,0 +1,21 @@
+.lowerDiv{
+    background-image: linear-gradient(to right, #F0CA80 ,#D692D2);
+    margin: 0;
+   
+    filter: brightness(90%);
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.display{
+   
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 16px;
+
+}
